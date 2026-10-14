@@ -1,0 +1,11 @@
+# Add one temple URL per line. Blank lines and lines starting with # are ignored.
+https://shaivam.org/hindu-hub/temples/place/1/koil-natarajar-temple
+https://shaivam.org/hindu-hub/temples/place/2/thiruvetkalam-pasupatheswarar-temple
+https://shaivam.org/hindu-hub/temples/place/3/thirunelvayil-oochinatheswarar-temple
+https://shaivam.org/hindu-hub/temples/place/4/thirukkazhippalai-palvannanathar-temple
+https://shaivam.org/hindu-hub/temples/place/5/thirunallurpperumanam-sivalokathiyagesar-temple
+https://shaivam.org/hindu-hub/temples/place/6/thirumahendrapalli-thirumeniazhagar-temple
+https://shaivam.org/hindu-hub/temples/place/7/thenthirumullaivazhul-mullaivananathar-temple
+https://shaivam.org/hindu-hub/temples/place/8/thirukkalikkamur-sundaraeswarar-temple
+https://shaivam.org/hindu-hub/temples/place/9/thirusaikkatu-sayavaneswar-temple
+https://shaivam.org/hindu-hub/temples/place/10/thiruppallavanichuram-pallavanesvarar-temple
