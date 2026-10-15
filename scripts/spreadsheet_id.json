@@ -3,7 +3,8 @@
     "worksheets": [
         {
             "name": "Manoj",
-            "gid": "0"
+            "gid": "0",
+            "group_by": "id"
         },
         {
             "name": "Dinesh",
