@@ -1,52 +1,30 @@
-export interface TempleLocation {
-  latitude: number | null
-  longitude: number | null
-  address: {
-    city: string | null
-    district: string | null
-    state: string | null
-    country: string
-  }
-  maps: {
-    provider: string | null
-    url: string | null
-  }
-}
-
-export interface TempleImage {
-  alt: string
-  title: string
-  url: string
+export interface TempleItem {
+  id: string
+  name: string
+  reference: string
+  location: string
+  padhigam: string
+  templeInfo: string
+  sculptures: string
+  inscriptions: string
+  tags: string[]
+  image: string | null
 }
 
 export interface TempleSummary {
   id: string
-  title: string
-  shortDescription: string
-  categories: string[]
+  name: string
+  templeInfo: string
+  reference: string
+  location: string
   tags: string[]
-  location: TempleLocation
-  thumbnail: TempleImage | null
+  image: string | null
+  itemCount: number
 }
 
-export interface TempleDetail extends TempleSummary {
-  url: string
-  content: {
-    fullText: string
-    timings: {
-      days: string[]
-      opens: string | null
-      closes: string | null
-    }[]
-    nearbyTemples: {
-      name: string
-      address: string
-      googleMapsUrl: string | null
-    }[]
-  }
-  images: TempleImage[]
-  links: { text: string; url: string }[]
-  references: { title: string; url: string | null }[]
+export interface TempleDetail {
+  id: string
+  items: TempleItem[]
 }
 
 export interface ListResponse {

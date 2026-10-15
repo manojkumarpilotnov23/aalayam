@@ -13,7 +13,7 @@ OUTPUT_DIR = Path("json_output")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def export_worksheet(spreadsheet_id, worksheet_name, gid):
+def export_worksheet(spreadsheet_id, worksheet_name, gid, group_by=None):
 
     # Build CSV export URL
     csv_url = (
@@ -37,7 +37,7 @@ def export_worksheet(spreadsheet_id, worksheet_name, gid):
     headers = rows[0]
 
     # Convert rows into JSON objects
-    json_data = []
+    records = []
 
     for row in rows[1:]:
 
@@ -55,7 +55,29 @@ def export_worksheet(spreadsheet_id, worksheet_name, gid):
             value = row[index] if index < len(row) else ""
             record[header] = value
 
-        json_data.append(record)
+        records.append(record)
+
+    # Group rows by a column if requested
+    if group_by:
+        if group_by not in headers:
+            raise ValueError(f"group_by column '{group_by}' not found in headers")
+
+        groups = {}
+        order = []
+
+        for record in records:
+            key = record[group_by]
+            if key not in groups:
+                groups[key] = []
+                order.append(key)
+            groups[key].append(record)
+
+        json_data = [
+            {group_by: key, "items": groups[key]}
+            for key in order
+        ]
+    else:
+        json_data = records
 
     # Create a safe output filename
     safe_name = "".join(
@@ -97,6 +119,7 @@ def main():
 
         name = worksheet["name"]
         gid = str(worksheet["gid"])
+        group_by = worksheet.get("group_by")
 
         print(f"Processing: {name} (GID: {gid})")
 
@@ -104,7 +127,8 @@ def main():
             output_file, record_count = export_worksheet(
                 spreadsheet_id,
                 name,
-                gid
+                gid,
+                group_by=group_by
             )
 
             print(f"SUCCESS: {output_file}")
