@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { fetchTemples, fetchTags } from '../api'
 import type { TempleSummary } from '../types'
 import TempleCard from '../components/TempleCard'
+import gopuram from '../assets/madurai-gopuram.jpeg'
 
 export default function TempleList() {
   const [temples, setTemples] = useState<TempleSummary[]>([])
@@ -52,7 +53,10 @@ export default function TempleList() {
       <header className="bg-white border-b border-amber-100 sticky top-0 z-10">
         <div className="max-w-6xl mx-auto px-4 py-4 space-y-3">
           <div className="flex flex-col sm:flex-row gap-3 items-center justify-between">
-            <h1 className="tamil text-2xl font-bold text-amber-800">🛕 ஆலயம் — Aalayam</h1>
+            <h1 className="tamil text-2xl font-bold text-amber-800 flex items-center gap-2">
+                <img src={gopuram} alt="" className="h-8 w-8 rounded-full object-cover object-top" />
+                ஆலயம் — கோயில் கலைக்களஞ்சியம்
+              </h1>
             <div className="flex gap-2 w-full sm:w-auto">
               <form onSubmit={handleSearch} className="flex gap-2 flex-1 sm:flex-initial">
                 <input

@@ -51,7 +51,7 @@ function ItemCard({ item, index }: { item: TempleItem; index: number }) {
 
           {item.reference && (
             <div>
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Reference</p>
+              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">மேலதிக விவரங்களுக்கு</p>
               <p className="tamil text-sm text-gray-600 italic">{item.reference}</p>
             </div>
           )}
