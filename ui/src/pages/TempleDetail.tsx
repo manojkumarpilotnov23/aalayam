@@ -4,12 +4,21 @@ import { fetchTemple } from '../api'
 import type { TempleDetail, TempleItem } from '../types'
 import MapModal from '../components/MapModal'
 
+function stripHtml(html: string): string {
+  return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()
+}
+
 function Field({ label, value }: { label: string; value: string }) {
   if (!value) return null
+  const isHtml = value.trimStart().startsWith('<')
   return (
     <div>
       <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">{label}</p>
-      <p className="tamil text-sm text-gray-700 leading-relaxed whitespace-pre-line">{value}</p>
+      {isHtml
+        ? <div className="tamil text-sm text-gray-700 leading-relaxed prose prose-sm max-w-none"
+            dangerouslySetInnerHTML={{ __html: value }} />
+        : <p className="tamil text-sm text-gray-700 leading-relaxed whitespace-pre-line">{value}</p>
+      }
     </div>
   )
 }
@@ -25,7 +34,7 @@ function ItemCard({ item, index }: { item: TempleItem; index: number }) {
         className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-amber-50 transition-colors"
       >
         <span className="tamil text-sm font-medium text-gray-800 line-clamp-2 flex-1 pr-4">
-          {item.templeInfo || item.reference || `Entry ${index + 1}`}
+          {stripHtml(item.templeInfo) || item.reference || `Entry ${index + 1}`}
         </span>
         <span className="text-amber-500 text-lg shrink-0">{expanded ? '▲' : '▼'}</span>
       </button>

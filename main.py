@@ -3,7 +3,8 @@ import os
 import glob
 import re
 import urllib.request
-from fastapi import FastAPI, HTTPException, Query
+from typing import Optional
+from fastapi import FastAPI, HTTPException, Query, Header
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
@@ -15,13 +16,15 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_methods=["GET"],
+    allow_methods=["GET", "PUT"],
     allow_headers=["*"],
 )
 
 _JSON_OUTPUT_DIR = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "py_scripts", "json_output"
 )
+
+_MASTER_FILE = os.path.join(_JSON_OUTPUT_DIR, "Manoj.json")
 
 
 def _parse_tags(raw) -> list[str]:
@@ -71,11 +74,18 @@ def _collect_all_tags() -> list[str]:
 ALL_TAGS = _collect_all_tags()
 
 
+def _reload():
+    global TEMPLES, _INDEX, ALL_TAGS
+    TEMPLES = _load_temples()
+    _INDEX = {t["id"]: t for t in TEMPLES}
+    ALL_TAGS = _collect_all_tags()
+
+
 @app.get("/")
 def root():
     return {
         "message": "Aalayam Temple API",
-        "endpoints": ["/temples", "/temples/{id}", "/tags"],
+        "endpoints": ["/temples", "/temples/{id}", "/tags", "/maps/embed"],
     }
 
 
@@ -87,12 +97,11 @@ def list_tags():
 
 @app.get("/temples")
 def list_temples(
-    q: str = Query(None, description="Search in templeInfo, reference, or id"),
-    tags: str = Query(None, description="Comma-separated tags to filter by"),
-    skip: int = Query(0, ge=0, description="Pagination offset"),
-    limit: int = Query(20, ge=1, le=100, description="Page size (max 100)"),
+    q: str = Query(None),
+    tags: str = Query(None),
+    skip: int = Query(0, ge=0),
+    limit: int = Query(20, ge=1, le=200),
 ):
-    """Return a paginated list of temples with summary fields."""
     results = TEMPLES
 
     if q:
@@ -103,6 +112,7 @@ def list_temples(
             or any(
                 ql in item.get("templeInfo", "").lower()
                 or ql in item.get("reference", "").lower()
+                or ql in item.get("name", "").lower()
                 for item in t.get("items", [])
             )
         ]
@@ -132,7 +142,6 @@ def list_temples(
                 if tag.lower() not in seen:
                     all_tags.append(tag)
                     seen.add(tag.lower())
-
         summaries.append({
             "id": t["id"],
             "name": first.get("name", "").strip(),
@@ -171,3 +180,44 @@ def get_temple(temple_id: str):
     if not temple:
         raise HTTPException(status_code=404, detail=f"Temple '{temple_id}' not found")
     return temple
+
+
+@app.put("/temples/{temple_id}")
+def update_temple(
+    temple_id: str,
+    payload: dict,
+    authorization: Optional[str] = Header(default=None),
+):
+    admin_token = os.environ.get("ADMIN_TOKEN", "")
+    if admin_token and authorization != f"Bearer {admin_token}":
+        raise HTTPException(status_code=401, detail="Unauthorized")
+
+    if not os.path.exists(_MASTER_FILE):
+        raise HTTPException(status_code=500, detail=f"Master file not found: {_MASTER_FILE}")
+
+    with open(_MASTER_FILE, encoding="utf-8") as f:
+        data: list[dict] = json.load(f)
+
+    target = next(
+        (e for e in data if (e.get("id") or "").strip() == temple_id.strip()),
+        None,
+    )
+    if not target:
+        raise HTTPException(status_code=404, detail=f"Temple '{temple_id}' not found")
+
+    item_patch = payload.get("item", {})
+    if target.get("items"):
+        item = target["items"][0]
+        for field in ("name", "templeInfo", "sculptures", "inscriptions", "padhigam", "location", "image", "reference"):
+            if field in item_patch:
+                val = item_patch[field]
+                item[field] = val.strip() if isinstance(val, str) else val
+        if "tags" in item_patch:
+            item["tags"] = _parse_tags(item_patch["tags"])
+
+    with open(_MASTER_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+    _reload()
+
+    return {"ok": True, "id": temple_id}

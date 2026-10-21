@@ -9,6 +9,10 @@ interface Props {
   activeTags?: string[]
 }
 
+function stripHtml(html: string): string {
+  return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()
+}
+
 export default function TempleCard({ temple, onTagClick, activeTags = [] }: Props) {
   const { id, name, templeInfo, reference, location, tags, image } = temple
   const [imgError, setImgError] = useState(false)
@@ -46,7 +50,7 @@ export default function TempleCard({ temple, onTagClick, activeTags = [] }: Prop
         )}
 
         {templeInfo && (
-          <p className="tamil text-sm text-gray-600 leading-snug line-clamp-2">{templeInfo}</p>
+          <p className="tamil text-sm text-gray-600 leading-snug line-clamp-2">{stripHtml(templeInfo)}</p>
         )}
 
         {tags.length > 0 && (
