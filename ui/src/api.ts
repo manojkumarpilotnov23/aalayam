@@ -34,3 +34,21 @@ export async function fetchMapEmbed(locationUrl: string): Promise<string | null>
   const data = await res.json()
   return data.embedUrl ?? null
 }
+
+export async function fetchAllTemples(): Promise<ListResponse> {
+  const res = await fetch(`${API_BASE}/temples?skip=0&limit=200`)
+  if (!res.ok) throw new Error('Failed to fetch temples')
+  return res.json()
+}
+
+export async function updateTemple(id: string, item: Record<string, unknown>): Promise<void> {
+  const res = await fetch(`${API_BASE}/temples/${encodeURIComponent(id)}`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ item }),
+  })
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}))
+    throw new Error((err as { detail?: string }).detail ?? 'Save failed')
+  }
+}

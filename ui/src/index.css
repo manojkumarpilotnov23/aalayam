@@ -8,3 +8,53 @@
 .tamil {
   font-family: 'Arima Madurai', serif;
 }
+
+/* Tiptap editor surface */
+.ProseMirror {
+  font-family: 'Arima Madurai', serif;
+  outline: none;
+  min-height: 120px;
+  padding: 0.75rem;
+  line-height: 1.7;
+}
+
+.ProseMirror p {
+  margin: 0 0 0.5rem 0;
+}
+
+.ProseMirror h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0.75rem 0 0.25rem;
+}
+
+.ProseMirror h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.25rem;
+}
+
+.ProseMirror ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ProseMirror ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ProseMirror a {
+  color: #d97706;
+  text-decoration: underline;
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  color: #9ca3af;
+  pointer-events: none;
+  float: left;
+  height: 0;
+}
