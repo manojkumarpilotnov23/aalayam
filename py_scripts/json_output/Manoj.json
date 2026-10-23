@@ -12,7 +12,7 @@
                 "sculptures": "துர்க்கை சன்னிதி, பல்லவர் கால சிற்பம், கோபுரத்தில் உள்ள மீன் பிடிக்கும் ஓவியம்",
                 "inscriptions": "",
                 "tags": "சோழர், சைவம், சம்பந்தர், ஓவியம், கும்பகோணம்",
-                "image": null
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLdJRT4htRazPQG_gM9mV3-fXqoSADSZafHXcBbY8dYsr0gmGe6bVP5HLnkEycPo87Z6HftltodVBl9ODQl_WsGwlb6h8Y1Ww3VhPWmRHI6OC8WFchulx08F3fQP1jazOfEYmJyR=w408-h544-k-no"
             }
         ]
     },
@@ -25,15 +25,10 @@
                 "reference": "குடவாயில் பாலசுப்பிரமணியன் - கலைமிகு கோயில்களும் கல்லெழுத்து சாசனங்களும் - ஆடல் கலை வளர்த்த ஐயாறு திருத்தலம்",
                 "location": "https://maps.app.goo.gl/AqzxR3pKWMXkzT4j6",
                 "padhigam": "",
-                "templeInfo": "<p><strong>கண்டியூரில் இருந்து சுந்தரர் பதிகம் பாட காவிரி விலகியது.</strong> தஞ்சை பெரிய கோயிலுக்கு 20 ஆடல் மகளிர் அனுப்பியது. தமிழகத்தில் உள்ள கைலாயம் என்று பெயர் பெற்ற கோயில்களில் மூத்த கைலாயம் திருவையாறு ஐயாரப்பர் கோயில். சப்த ஸ்தானத்தில் தலைமை கோயில்.</p>",
+                "templeInfo": "கண்டியூரில் இருந்து சுந்தரர் பதிகம் பாட காவிரி விலகியது, தஞ்சை பெரிய கோயிலுக்கு 20 ஆடல் மகளிர் அனுப்பியது. தமிழகத்தின் மூத்த கைலாயம் எனும் கோயில் சப்த ஸ்தானத்தில் தலைமை கோயில்.",
                 "sculptures": "",
                 "inscriptions": "",
-                "tags": [
-                    "சோழர்",
-                    "கும்பகோணம்",
-                    "சுந்தரர்",
-                    "சப்தஸ்தானம்"
-                ],
+                "tags": "சோழர், கும்பகோணம் , சுந்தரர், சப்தஸ்தானம்",
                 "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLdHsNVQPkglBb-Xw_5mZloRa91oeHjlss6HGH7UqmfcnGkiQmipCffJvYJrFY38X_QIKw502ljWQrKOdkApdpUrvedbRIHgqe2O1tSkm6xiiUfFRlvVDAK6s-Y8RLpgaDb4QIpRrOPbmhk=w408-h306-k-no"
             }
         ]
@@ -98,11 +93,33 @@
                 "reference": "குடவாயில் பாலசுப்பிரமணியன் - கலைமிகு கோயில்களும் கல்லெழுத்து சாசனங்களும் - நீதிக்கு அருள் சுரந்த வீதி விடங்கப் பெருமான்",
                 "location": "https://maps.app.goo.gl/2HdJN1V51CRdbLnR8",
                 "padhigam": "",
-                "templeInfo": "திருவாரூர் கல்வெட்டு மனு மனுவின் அமைச்சர் அபயகுலாமலன் அவனது மகன் சூரியன், மனுவின் மகன் பிரியவிருத்தன் திருப்புவனம், திருக்கோடிக்கா கோயில் மனு நீதி சோழன் சிற்பங்கள்",
+                "templeInfo": "திருவாரூர் கல்வெட்டு மனு மனுவின் அமைச்சர் அபயகுலாமலன் அவனது மகன் சூரியன், மனுவின் மகன் பிரியவிருத்தன் திருப்புவனம், திருக்கோடிக்கா கோயில் மனு நீதி சோழன் சிற்பங்கள்\nநீலோத்பலாம்பாள், கமலாம்பாள் என்று இரண்டு காமகோட்டங்கள் உள்ளன. ",
                 "sculptures": "",
                 "inscriptions": "",
                 "tags": "சோழர், சைவம், சிற்பம், கும்பகோணம்",
                 "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLfw3alghkqTsWDwWvkRsQtwa4Rivui_W1nZFplPORo4ddcJsQuPnT2L3rFgAmViaheg8KrNKu6VJ5hUjamdM5ImEthYNtxKCpAbn1G3307gi1Mz35mr46694L6n_xHfg5i-7IW5HBcJJ68s=w408-h295-k-no"
+            },
+            {
+                "id": "shaivam-thiruvarur-thyagarajar-temple",
+                "name": "திருவாரூர் தியாகராஜர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - பொன்னை உரைத்து தன்னை அறிந்த சுந்தரர் ",
+                "location": "",
+                "padhigam": "",
+                "templeInfo": "பொன் செய்த மேனியீர் என்ற பதிகத்தை ஆரூர் குளத்தின் இடுப்பளவு நின்று பாடி 8வது பாடலில் பொன்னை பெற்று அந்த பொன் தான் கொண்ட பொன்னோடு ஒத்து இல்லாததால் தன் பக்தியில் குறைவு உண்டோ என்று எண்ணி மாலயனுக்கு அறிய கழல் பாடி திருமுதுகுன்றம்(விருத்தாசலம்) தலத்தில் இட்ட முந்தைய பொன்னை பெற்றார். ",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சுந்தரர், பாடல்பெற்ற தலம், சைவம்"
+            },
+            {
+                "id": "shaivam-thiruvarur-thyagarajar-temple",
+                "name": "திருவாரூர் தியாகராஜர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - ஆரூர் ஆழித்தேர் ",
+                "location": "",
+                "padhigam": "",
+                "templeInfo": "சரஸ்வதி மகால் நூலகத்தில் உள்ள பொ.யு 1843ம் ஆண்டு மோடி ஆவணம், 55 நாள் திருவிழா நடந்ததை குறிப்பிடுகிறது. பொயு 1700ம் ஆண்டு வாக்கில் வரையப்பட்ட தேவாசிரியன் மண்டப ஓவியங்கள் த்வஜாரோகணம் தொடங்கி திருவிழா நிகழ்ச்சிகளை கொண்டுள்ளன.\nதேரின் சிறப்புகள் - 96 அடி உயர தேர், 300 டன் எடை கொண்ட தேர். \nதிருவிழா பத்ததி - பூர்வாங்கம் ஒருநாள், ஐயனார் திருவிழா 5 நாள், பூர்வாங்கம் ஒருநாள், பிடாரி 10 நாள், பூர்வாங்கம் 2 நாள், 36 பங்குனி பெருவிழா.",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": ""
             }
         ]
     },
@@ -119,7 +136,7 @@
                 "sculptures": "",
                 "inscriptions": "",
                 "tags": "திருவண்ணாமலை , விஜயநகரம், சைவம், பாடல்பெற்ற தலம், கல்வெட்டு, சிற்பம்",
-                "image": null
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLdAKYLtzhiFmJGV93Tm-bFBTyNz-Y-kM1GNLewyT7Es8641XeFWg_ycdpnyWkD8Sry3e-6w0rOaBiDD-iudGc3m6-9RZ6VW8burWn08qiQYPRLif2kLH_qSG2LbpGEOWet9UjoY=w408-h544-k-no"
             }
         ]
     },
@@ -313,6 +330,28 @@
                 "inscriptions": "",
                 "tags": "சோழர், தஞ்சாவூர் , சிற்பம், கல்வெட்டு, ஓவியம்",
                 "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLc0DROfVX-uKCG_bXELw6ycoW_WU-hAxK0tAUGXz-8BMNlq-TPlJRqPbkUfTf1FqvrlcbRMBs6qMmAnBOWFsTW5l5Cz1s6MEAh954BgjY6vK2T9KJX2GKAfFWk-rRLquFGUaJSrjmb70Mg=w408-h570-k-no"
+            },
+            {
+                "id": "shaivam-tanjore-peruvudaiyar-temple",
+                "name": "தஞ்சை பெருவுடையார் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - ஸ்ரீ விமானமே சதாசிவ லிங்கம்",
+                "location": "",
+                "padhigam": "",
+                "templeInfo": "விமான கோஷ்டத்தில் பஞ்ச தத்புருஷம், அகோரம், சத்யோஜதம், வாமதேவம் ஈசானம் என்ற சிவனின் ஐந்து முகங்கள்  உருவங்களாக உள்ளன. ஸ்ரீ  விமானத்தையே சதாசிவ லிங்கமாக எடுப்பித்திருக்கிறார்கள் \nசாந்தார அறையில் உள்ள மனோன்மணி சிற்பம். ஒரு கரத்தில் தாமரை, மறு கரத்தில் மணிமாலை. பத்மாசனத்தில் அமர்ந்த நிலை. விமானம் சக்தி உறையும் மேருவாக காட்சியளிப்பதால். உட்புறம் ஸ்ரீசக்ரமாக மையத்தில் பிந்துவோடு திகழ்கிறது. எனவே விமானத்தை தட்சிணமேரு, இறைவனை தட்சிணமேரு விடங்கர் என்றும் குறிப்பிடப்படுகிறது.",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": ""
+            },
+            {
+                "id": "shaivam-tanjore-peruvudaiyar-temple",
+                "name": "தஞ்சை பெருவுடையார் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - காதுபொத்தர் எனும் கர்ணபிராவிருத்தர்",
+                "location": "",
+                "padhigam": "",
+                "templeInfo": "ராஜராஜன் கொடுத்த தட்சிணாமூர்த்தி செப்பு படிமத்தை குறித்த கல்வெட்டில் காதுபோத்தர் குறிப்புகள் வருகின்றன.",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "கல்வெட்டு, சிற்பம், தஞ்சாவூர் , சோழர்"
             }
         ]
     },
@@ -329,6 +368,18 @@
                 "sculptures": "",
                 "inscriptions": "",
                 "tags": "சோழர், சைவம், சிற்பம், கல்வெட்டு, தஞ்சாவூர்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLftftHgQ8onvYuesaXWkugK8GsGVPcTVVc2ik5UUew8w_BP-v7SFEq7CKdv-XR3a79W-x9u_5mQ3i98BiOq5jYn90ZTXRJB0vN5nJPmoejxNI8f39SY4fqfPkVAl3X-D8W5Za4b=w408-h681-k-no"
+            },
+            {
+                "id": "shaivam-sendhalai-meenatchi-sundaresvarar-temple",
+                "name": "செந்தலை மீனாட்சி சுந்தரேஸ்வரர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - வேள்வியின் தலைவனான வாகீஸ்வரர் வாகீஸ்வரி சிற்பங்கள்",
+                "location": "https://maps.app.goo.gl/2vVqYZg8VUiLndar9",
+                "padhigam": "",
+                "templeInfo": "தெற்கில் தட்சிணாமூர்த்தி கோஷ்டத்திற்கு அருகில் வாகீசர் சிற்பம் உள்ளது.",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சோழர், சைவம், கும்பகோணம் , சோழநாடு , அப்பர்",
                 "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLftftHgQ8onvYuesaXWkugK8GsGVPcTVVc2ik5UUew8w_BP-v7SFEq7CKdv-XR3a79W-x9u_5mQ3i98BiOq5jYn90ZTXRJB0vN5nJPmoejxNI8f39SY4fqfPkVAl3X-D8W5Za4b=w408-h681-k-no"
             }
         ]
@@ -496,8 +547,544 @@
                 "templeInfo": "கூகூர் ஆம்ரவணேஸ்வரர் கோயில் - உத்தம சோழன் திருப்பணி, கோஷ்ட சிற்பங்கள், சுந்தரருக்கு அணுக்கப்பிள்ளை என்று பெயரிட்டு ஈசனே விழா எடுக்கவேண்டும் என்று சொல்லும் கல்வெட்டு.",
                 "sculptures": "",
                 "inscriptions": "",
-                "tags": "சோழர், சைவம், சுந்தரர், சோழநாடு",
+                "tags": "சோழர், சுந்தரர், சோழநாடு, சைவம்",
                 "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLfSpdkco9fkPlf8xnxfM7K8HxBOnjiGxF-eoE0blJ8qd3pbPtImrujShC8UjEyodmDGknB2m9qV-Hu4KOXFLuvITVdF3ZslApam0pnPW-nh0rSZ4EiYakIRUzbSQYkJWQA4XPnZ=w408-h544-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-kumbakonam-nagesvaran-temple ",
+        "items": [
+            {
+                "id": "shaivam-kumbakonam-nagesvaran-temple ",
+                "name": "குடந்தை நாகேஸ்வரன் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - ஆடல்வல்லான்",
+                "location": "https://maps.app.goo.gl/ZCqfeTHiFambShE2A",
+                "padhigam": "",
+                "templeInfo": "ஆகாய வடிவ தேரில் உள்ள நடராஜர் மண்டபம். கருவறை அதிஷ்டானத்தில் கண்ணன் காளையை அடக்கும் குறுஞ்சிற்பம். ",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சோழர், சைவம், வைணவம், சிற்பம், கும்பகோணம் , சோழநாடு , அப்பர்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLcE6BNxSGlNlgbTQsAd3NtZF4nZiPhGRSWI65eBaHcFDQ3YgqynxaKUQVVQk7llAf9ph-f1LuJ0t75r0HeaaaB6XYbWcH27aV1PqLzzorwzD5EPdo545nMd9DxEXUtOrD-MFwPgk0InJzQ=w408-h440-k-no"
+            },
+            {
+                "id": "shaivam-kumbakonam-nagesvaran-temple ",
+                "name": "குடந்தை நாகேஸ்வரன் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - அறுவடை திருநாளில் ஆதவன் வழிபாடு",
+                "location": "",
+                "padhigam": "செக்கர் ஒளி, பவள ஒளி, மின்னின் சோதி என்ற பதிகத்தில் ஸ்ரீ ருத்ரத்தில் உள்ள மந்திரத்தின் மொழிபெயர்ப்பு என்று ஆய்வாளர் R நாகசாமி கருதுகிறார் \nhttps://shaivam.org/thirumurai/sixth-thirumurai/757/thirunavukkarasar-thevaram-thirukkudanthai-keezh-kottam-thiruthandagam-sonmalintha-marainaankaa/",
+                "templeInfo": "முதலாம் பராந்தகன் காலத்தில் இருந்து இங்கு சூரிய வழிபாடு இருந்துள்ளது. சூரியனுக்கு கொடுத்த நிவந்தங்கள், ஆதித்யன், பாஸ்கரன், ரவி, பானுமூர்த்தி, ஆகிய சூரிய வடிவ சிற்பங்கள் இடம்பெற்றுள்ளன. பிரபஞ்ச பருவெளியில் நடனமிடும் ஆனந்த தாண்டவரை இருக்கும் தேர் சக்கரமாக 12 ஆதித்யர்கள் அமைந்துள்ளனர். ",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சோழர், பாடல்பெற்ற தலம், சைவம், கும்பகோணம்"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-vazhuvur-verattaanesvarar-temple ",
+        "items": [
+            {
+                "id": "shaivam-vazhuvur-verattaanesvarar-temple ",
+                "name": "வழுவூர் வீரட்டானேஸ்வாரர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - கரி உரித்த தேவர்",
+                "location": "https://maps.app.goo.gl/8vRsZXCFxJnfxZuDA",
+                "padhigam": "",
+                "templeInfo": "கஜாசுரனை அழித்த கோயில் ",
+                "sculptures": "கஜ சம்ஹாராமூத்தி செப்புத்திருமேனி,",
+                "inscriptions": "",
+                "tags": "சோழர், சைவம், பாடல்பெற்ற தலம், சிற்பம், மயிலாடுதுறை",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLdswmYuCGYyalH4ER9dS2vHBD2mQ_H8BA1xAJoWkg-v6PVx5A3ODYUI7KoYmBIXyvA6moS8dWDu3oBXxJBqRxreoUMdwiBwl6YUlzwnBBVYtmSC6vgeCPJKJJ5CvEbBLEetGRF5W2_9wXmB=w408-h544-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivm-thirvotriyur-aadhipurisvarar-temple",
+        "items": [
+            {
+                "id": "shaivm-thirvotriyur-aadhipurisvarar-temple",
+                "name": "திருவொற்றியூர் ஆதிபுரீஸ்வரர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - வரி பிளந்து எழுதிய பெருமான்",
+                "location": "https://maps.app.goo.gl/7PjkC2krZpyGMFSY6",
+                "padhigam": "",
+                "templeInfo": "திருவொற்றியூர் ஈசன் வரி பிளந்து எழுதிய கல்வெட்டு பொறிப்பு",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சோழர், நிவந்தம் , கல்வெட்டு, பாடல்பெற்ற தலம், சைவம்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLeuvdP1S2mzMCj4kRAQqYaFWSX-AXzDBYell0JkFJROczugnkcQTe3MxVwKBsaK6XNXEEDMrYFQh6935H_rFnOj7gPvbb7NDwqaUmhltWrmZXpfvNGrZy4PZHWm14pEB5tY6uLaJ6JTSeY=w408-h306-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-tirunelveli-nellaiyappar-temple ",
+        "items": [
+            {
+                "id": "shaivam-tirunelveli-nellaiyappar-temple ",
+                "name": "திருநெல்வேலி நெல்லையப்பர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - நெல்லையப்பர் ஆலயமும் சிற்ப கருவூலமும்",
+                "location": "https://maps.app.goo.gl/7qxS1QDJbQzWqQcZ9",
+                "padhigam": "",
+                "templeInfo": "முதலாம் திருச்சுற்றில் உள்ள புடைப்பு சிற்பங்கள்.",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சோழர், சைவம், பாடல்பெற்ற தலம், சிற்பம், சுந்தரர், பாண்டிநாடு",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLdVHQxF7bh--0svz9i6oL6cThTDNV7xhvhc3QJ2Rzrfmvt7kitCDBQTJGuFEZebInxjBBr0K4IjgTHM-X3Aw5phbAtH0Z-zF0T9l5nyerNxDsUk_phFh6gxSzv6iDM47cIqKB2wvwqgD4nM=w408-h402-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-thiruvalanjuzhi-temple",
+        "items": [
+            {
+                "id": "shaivam-thiruvalanjuzhi-temple",
+                "name": "திருவலஞ்சுழி கபர்தீஸ்வரர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - பொன்னி வளம் சுழிக்கும் புனிதர் தம் கோயில்",
+                "location": "https://maps.app.goo.gl/GjDM1mdDddpprxyc9",
+                "padhigam": "",
+                "templeInfo": "ராஜராஜனின் முதலாம் நினைவாண்டில் தர்ப்பணம் கொடுத்த க்ஷேத்ர பாலர் சிற்பம். இந்த சிற்பம் தற்போது தஞ்சை ராஜராஜன் மணிமண்டப அருங்காட்சியகத்தில் இருக்கிறது. திருவிசலூரில் கொடுத்த ஹிரண்யகர்பத்தின் தங்கத்தை கொண்டு அடுத்த ஆண்டு இரண்டு பொற்பூ செய்து இந்த பைரவரை வழிபட்டது.",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சோழர், சைவம், பாடல்பெற்ற தலம், கும்பகோணம் , ஓவியம், கல்வெட்டு, சிற்பம், சோழநாடு",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLd9bk9pvfiQqRImxt1zJc0hP_tzwzfjSNhE3hG3tEE-QWLEIHd8-kxB7Utdf-Vu8TgLAEuL1plPkB9zPK0QWf71dEMVLjp6SAk64g7MMYemrsD_E0zHS0m1T8SefoX3YCs6sFpMUcqczt_A=w408-h306-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-tanjore-kajaaranyesvarar-temple",
+        "items": [
+            {
+                "id": "shaivam-tanjore-kajaaranyesvarar-temple",
+                "name": "தஞ்சை கஜாரண்யேஸ்வரர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - ஆனைக்காரப் பெருமானுக்கு அழகிய மாடக் கோயில்",
+                "location": "https://maps.app.goo.gl/p47aHkoE7RQkvv6f7",
+                "padhigam": "",
+                "templeInfo": "கஜாரண்யேஸ்வரர் எனும் சிவன் கோயில். பல்லவர் கால விநாயகர், சண்டீசர் சிற்பம், சிவனின் யானை ஐராவணம் தாங்குவது போல அமைக்கப்பட்ட கோயில். திருவையாறுக்கு அருகில். வெண்ணாற்றில் இருந்து பிரியும் பிள்ளை வாய்க்காலில் உள்ள மகாவீரர் சிற்பம்.",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சோழர், சைவம், தஞ்சாவூர் , சிற்பம்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLfeFpolPbHpDP2sD3RF2TwdF1-vvYmLPTXAF2tmSjIh7RihiERq1q5-_OM1FodTRjv6yK8gqTghaVxU9ZuP0sHmW26tIJw5feyc0CxpAzzEZpvtzQhPzDlCUdaI0LDkfXQhqTn9Hg=w408-h408-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-kanchipuram-kailaasanathar-temple",
+        "items": [
+            {
+                "id": "shaivam-kanchipuram-kailaasanathar-temple",
+                "name": "காஞ்சி கைலாசநாதர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - ஸ்ரீ கைலாசம் எனும் சிவாலயங்கள்",
+                "location": "https://maps.app.goo.gl/up8AFHWU7KggRR1g6",
+                "padhigam": "",
+                "templeInfo": "ஸ்ரீகைலாசம் என்று அழைக்கப்படும் சிவாலயங்களுள் ஒன்று, திருவதிகை வீரட்டானம், தஞ்சை பெரிய கோயில், கங்கை கொண்ட சோழபுரம், தாராசுரம், நல்லூர் பெருமனம் போன்ற தலங்களும் கைலாயம் என்று அழைக்கப்படுகின்ற.",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சோழர், சைவம், சிற்பம், பாடல்பெற்ற தலம்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLd7R7-9jfNEGdi1OudEICALoBWd33v7jmbz9f9WxQm3kd3QXn9GWqJygXjOu-gM1cJ2DOf-CYNzM5F--QyvKBasQZ9jc2e3Pj6RuKJKSWKcngmvT-0cYYs8Le7J2eQMcuBWoRF5=w408-h295-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-thiruvaiyaru-aiyarrappar-temple",
+        "items": [
+            {
+                "id": "shaivam-thiruvaiyaru-aiyarrappar-temple",
+                "name": "திருவையாறு ஐயாறப்பர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - சோழர் காலத்தில் சக்தி வழிபாடு ",
+                "location": "https://maps.app.goo.gl/xy7zThi3JvCco1oi7",
+                "padhigam": "",
+                "templeInfo": "அட்ட மாதரும் சப்த கன்னிமாரும் - திருவையாறு அட்டமாதர் \n    1. காமத்தை அழிக்கும் யோகீஸ்வரி\n    2. குரோதத்தை அழிக்கும் மாகேஸ்வரி \n    3. லோபத்தை அழிக்கும் வைஷ்ணவி \n    4. மதத்தை அழிக்கும் பிரமாணி \n    5. மோகத்தை அழிக்கும் கௌமாரி \n    6. மாச்சர்யத்தை அழிக்கும் இந்திரஜா \n    7. பைசுன்யத்தை அழிக்கும் யமதண்டரா \n    8. அசுயாவை அழிக்கும் வாராகி",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சோழர், பாடல்பெற்ற தலம், சைவம், கும்பகோணம் , கல்வெட்டு, சிற்பம், சோழநாடு",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLekIm92Mw8GhcDTbm2ZPYdROhNa0wr0Q9QnoNualm_I_wBnZ0HWDHPdTZeQZqKMLuAEqIPfkRJdDtK7UKSaV4HDg9gRKznWwzbUDlePpiPrM1046uSimuqc_JFJldkBwXdE9Q1MlfOmulM=w408-h306-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaktham-kooththanur-sarasvathi-temple",
+        "items": [
+            {
+                "id": "shaktham-kooththanur-sarasvathi-temple",
+                "name": "கூத்தனூர் சரஸ்வதி கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - ஆற்றங்கரை சொற்கிழத்தியின் அற்புத வடிவங்கள்",
+                "location": "https://maps.app.goo.gl/pUYfk4xMp9sxWn5E6",
+                "padhigam": "தக்கயாக பரணி - ஆற்றங்கரை சொற்கிழத்தி வாழியவே",
+                "templeInfo": "சரஸ்வதி வடிவங்கள் எதிலுமே வீணை இல்லை. ராஜா ரவி வர்மா ஓவியத்திற்கு பின்னர் தான் வீணை வைக்கும் வழக்கம் ஏற்பட்டது. கமண்டலமும் அட்சமாலையும் மட்டுமே ஏந்தி இருப்பாள். ",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சோழர், மயிலாடுதுறை , சிற்பம், கல்வெட்டு, சோழநாடு",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLeBQwUpHil1zW_txG-zrPw5p6Jzho_7d3JJF5TSgQDvL9QSAQhNCTnToRGo7pOc4NgOWp4QmRXnh1b0GIa6hq_rOMTTyu_111JUaRCp3R6QNvWadr9fBo5cbP2fucLMKfB-qadu=w408-h544-k-no"
+            }
+        ]
+    },
+    {
+        "id": "saktham-Chausath-Yogini-temple",
+        "items": [
+            {
+                "id": "saktham-Chausath-Yogini-temple",
+                "name": "சௌதாத் யோகினி கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - சோழர் காலத்தில் சக்தி வழிபாடு ",
+                "location": "https://maps.app.goo.gl/QY4TWVWaRXNDoru39",
+                "padhigam": "இயக்கிமார் அறுபத்து நால்வரை எண்குணம் செய்த ஈசனே",
+                "templeInfo": "",
+                "sculptures": "லலிதா சஹஸ்ர நாமம் 64 யோகினி வடிவங்களை குறிப்பிடுகிறது. MP பேராகாட் காலசூரி அரசர்கள் எடுத்த கோயில்.",
+                "inscriptions": "",
+                "tags": "சாக்தம்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLcnFRxd7CLRnNjWpV16LZ0YrcnK2SUt25quiffMFYRs_s_UVxGPppzw9pXD6Hfcnv2BHFxhsFGfLgfEqdmdT5SLFsiMpEEzGmr56LvhAyQ7UKgHxrI2qgzq1c4mn_UID26vuMD6=w408-h306-k-no"
+            }
+        ]
+    },
+    {
+        "id": "vaishnavam-namkakkal-temple",
+        "items": [
+            {
+                "id": "vaishnavam-namkakkal-temple",
+                "name": "நாமக்கல் நரசிம்மர் குடைவரை",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - நரசிம்மரும் சரபரும்",
+                "location": "https://maps.app.goo.gl/SX9uoRWjzGDNdna87",
+                "padhigam": "",
+                "templeInfo": "நாமக்கல் குடைவரை பால நரசிம்மரும், உக்ர நரசிம்மரும்",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சிற்பம், வைணவம், கொங்குநாடு",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLeoIs4ebLZVZV0vQhoORUrn_e10fCGYwN51kiHnz9L0ttv9HnItnzVV7sZCpILMuB6_CVpRw0RdtybfrVEkhBGRHnauWSc9ZdoIhcSvcT3ApG3fJ4oyrC6ctq8Z65wVqn7yq8HS=w408-h272-k-no"
+            }
+        ]
+    },
+    {
+        "id": "vaishnavam-srivaikundam-temple",
+        "items": [
+            {
+                "id": "vaishnavam-srivaikundam-temple",
+                "name": "ஸ்ரீவைகுண்டம் வைகுண்ட நாதர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - காளையையும் காளிங்கனையும் அடக்கிய கண்ணபிரான்",
+                "location": "https://maps.app.goo.gl/VgUocJDtoxTfFwWCA",
+                "padhigam": "",
+                "templeInfo": "",
+                "sculptures": "ஸ்ரீவைகுண்டம் அதிஷ்டான சிற்பம்",
+                "inscriptions": "",
+                "tags": "வைணவம், சிற்பம், சோழநாடு",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLcLP8EtdHKJridXMN19GrU5IzrcxDtFgkWr1vTuEkl6oRo2LAIKePcX2XNO8X5VQQq0dWYzy8zGbAq_L0GLrid6G5LDSijSJWMFKXFtLjbsqUEQeWJLDShn9p0D5hq-OIgs9XFlPTO4YW1B=w408-h306-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-thirupunkur-temple",
+        "items": [
+            {
+                "id": "shaivam-thirupunkur-temple",
+                "name": "திருப்புன்கூர் சிவலோகநாதர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - காதுபொத்தர் எனும் கர்ணபிராவிருத்தர்",
+                "location": "https://maps.app.goo.gl/zK5av65rKFZoXFhV7",
+                "padhigam": "இக்கோயில் பதிகத்தில் கர்ணபிராவிருத்தர் எனும் காதுபோத்தர்கள் குறித்த குறிப்பு வருகிறது. \nபோர்த்த நீள் செவியாளர் அந்தணர்க்கு - https://shaivam.org/thirumurai/seventh-thirumurai/56/sundarar-thevaram-thirupunkuur-anthanaalanun-adaikkalam/ ",
+                "templeInfo": "",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சுந்தரர், சைவம்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLfj46TcmUxvcwQG7y4O03FEGOO6RoBp61upuITL_lHkn4LNvj9_mp7hldTvAXrx6UaVgc1J_Cnhr57HwFu1dbeSCqXEsCW92U5pC9v4zjFXhP7t1lSnOOtX__n02zk06APn3vXKT4G_JZTz=w408-h544-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-thirunindravur-temple ",
+        "items": [
+            {
+                "id": "shaivam-thirunindravur-temple ",
+                "name": "திருநின்றியூர் லக்ஷ்மிபுரீஸ்வரர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - காதுபொத்தர் எனும் கர்ணபிராவிருத்தர்",
+                "location": "",
+                "padhigam": "காது பொத்தரை கின்னரர் உழுவை \nhttps://shaivam.org/thirumurai/seventh-thirumurai/68/sundarar-thevaram-thirunidriyur-thiruvum-vanmaiyunth/",
+                "templeInfo": "",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "மயிலாடுதுறை , சைவம், சுந்தரர், பாடல்பெற்ற தலம்"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-thirumudhukundram-viruthagireesvarar-temple",
+        "items": [
+            {
+                "id": "shaivam-thirumudhukundram-viruthagireesvarar-temple",
+                "name": "திருமுதுகுன்றம் விருத்தகிரீஸ்வரர் கோயில்",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - பொன்னை உரைத்து தன்னை அறிந்த சுந்தரர் ",
+                "location": "https://maps.app.goo.gl/jeRGzpK8rhQPYvih9",
+                "padhigam": "",
+                "templeInfo": "இத்தலத்தில் இட்ட பொன்னை சுந்தரர் ஆரூரில் பெற்றார். ",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "நாயன்மார், சைவம், சுந்தரர், திருவாரூர்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLdWqImh2J0W9sxVuxhmgMBHoXeGvLTGXJLmNrnpigSm6Mh3_hOg7wH8klZ11OnDnw4G6pZSF1IiqYb7GY63_GFaq-_2cbgFO_niFnJIUSEPmEh6lHxHCtv56ztF3tv5fn3sQs9Z=w408-h306-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-thiruvarur-achalesvarar-temple",
+        "items": [
+            {
+                "id": "shaivam-thiruvarur-achalesvarar-temple",
+                "name": "திருவாரூர் அசலேஸ்வரர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - நீரால் விளக்கிட்ட நமிநந்தி அடிகள்",
+                "location": "https://maps.app.goo.gl/VxF6jqE6DuorcPhG8",
+                "padhigam": "",
+                "templeInfo": "64 நாயன்மார்களுள் ஒருவரான நமிநந்தி அடிகள் இத்தலத்தில் குளத்து நீரால் விளக்கிட்டார். தாராசுரம் கோயிலில் நமிநந்தி அடிகளின் குறுஞ்சிற்பம் உள்ளது. ஆரூர் பெருமான் தரிசனம் முடித்து தனது மணலி எனும் ஊரில் இரவு உறங்க சென்றபோது அவர் மனைவி சிவ பூஜைக்கு அழைக்க தான் குளிக்கவில்லை குளித்துவிட்டு வருவதாக சொல்கிறார். அப்போது இறைவன் திருவாரூரில் பிறந்த அனைவரும் சிவகணங்களே என்று கூறி மறைகிறார். ஆரூர் வந்த நமிநந்தி அடிகள் எல்லாம் சிவ ஸ்வரூபமாக இருக்க காண்கிறார் என்று இவரது புராணத்தை பெரியபுராணத்தில் காண்கிறோம்.  ",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சோழர், சைவம், சிற்பம், நாயன்மார், சோழநாடு , பாடல்பெற்ற தலம்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLeg9ME6mLNjh10GeMrP_5SSD7dw-iqJfKtuKEMVAZBpKQJQ_0QU6JVETDJZHq3K4V2J4ZSwjQIyFhnTVJNeVy6s8p35nWaRhHNfFCGTpxCvEhc0HUUTWNuH4SMD1B79TgFZoBhhNw=w408-h254-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-kumbakonam-somesvarar-temple",
+        "items": [
+            {
+                "id": "shaivam-kumbakonam-somesvarar-temple",
+                "name": "குடந்தை சோமேஸ்வரன் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - சோழர் காலத்தில் சக்தி வழிபாடு ",
+                "location": "https://maps.app.goo.gl/PPeWrQ77jKw4DQvM7",
+                "padhigam": "",
+                "templeInfo": "7 கன்னியாபிடாரிகள் சிற்பங்கள், அந்த சிற்பங்களுக்கு முதலாம் ராஜாதிராஜன் 1054 இறையிலியாக நிலம் கொடுத்தது அந்த ஏழு கன்னிகள் - பட்டாரிகா, தேவ கன்னிகா, பத்ம கன்னிகா, சிந்து கன்னிகா, அகஜா கன்னிகா, வன கன்னிகா, சுமதீ கன்னிகா ",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சோழர், சைவம், பாடல்பெற்ற தலம், கல்வெட்டு, சிற்பம், கும்பகோணம் , சாக்தம், சோழநாடு",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLfyuMYL3X4MiWD7ytUOLg_fp3EVoYiX_o6_OT0VAzcb5ITTa4NJCXlWCOBiOY6hkzioL8RUVlbpPNjxpZI6--h8Ut-7mA5cy-YTjMgDT-5wNb881xZfaXIY2W31dBdDBJKkc9vaJ84Fm6nb=w408-h505-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-thirumangalam-saamavedheesvarar-temple",
+        "items": [
+            {
+                "id": "shaivam-thirumangalam-saamavedheesvarar-temple",
+                "name": "திருமங்கலம் சாமவேதீஸ்வரர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - சேவடி நீழல் அடைந்தவரும் செருப்புடன் அம்பலம் புகுந்தவரும்",
+                "location": "https://maps.app.goo.gl/tHAdLEBCNXPtkpz89",
+                "padhigam": "",
+                "templeInfo": "பெரியபுராணத்தின் ஆனாய நாயனார் புராணத்தில்  மரவுரி செருப்பு கால்களுடன். குழலூதிக்கொண்டிருந்த அந்த நிலையிலேயே தில்லை பெருமானை அடைந்தார் என்ற குறிப்பு வருகிறது. கண்ணப்பரும் இவரும் தான் செருப்பு கால்களுடன் சிவகதி அடைந்தவர்கள்.",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சைவம், சோழநாடு, நாயன்மார்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLeDNhm0HS_Hz460SGGgyslI9_XrNL3uaevRbQ8eMs7ojhWRcAN7eLbdEN5Zr_VTw3LOmWoCkleO1QEygYu-Q24NnuifVdgDuIFASyp9Yu81gEghW-87QPsRgWeBHtTGHorVbyklJPxc89k=w408-h295-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-thirukolili-koliliyappar-temple",
+        "items": [
+            {
+                "id": "shaivam-thirukolili-koliliyappar-temple",
+                "name": "திருக்குவளை கோளிலிநாதர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - பதிகம் பாடும் அடிகள்மார்",
+                "location": "https://maps.app.goo.gl/wmXsYS5Hu9tK2MXb7",
+                "padhigam": "",
+                "templeInfo": "",
+                "sculptures": "",
+                "inscriptions": "ஜடாவர்மன் சுந்தர பாண்டியன் பொ.யு 1286ம் ஆண்டு கல்வெட்டு  முதன் முதலில் தேவாரம் என்ற பெயர் குறிப்பிடப்படுகிறது. ",
+                "tags": "பாண்டியர், சைவம், கல்வெட்டு, பாண்டிநாடு",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLfT9PJpACsakNHnVcM19mWxWrHc4zhTEa6Ptjphf22mWtZ-SUh8HIlSiMz0EKbfEYykSWT3oUtdLCTdI6cxpVeWZquXyApyN7aUkfkDd4VB5dhMXiWmtMUweB_BuDUZhgX8uYBZ=w408-h306-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-piraanmalai-kodungundranadhar-temple",
+        "items": [
+            {
+                "id": "shaivam-piraanmalai-kodungundranadhar-temple",
+                "name": "பிரான்மலை கொடுகுன்ற நாதர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - பதிகம் பாடும் அடிகள்மார்",
+                "location": "https://maps.app.goo.gl/nHoPBap25jDbaWjE6",
+                "padhigam": "",
+                "templeInfo": "",
+                "sculptures": "",
+                "inscriptions": "வீரபாண்டியன் காலத்து பொ.யு 1306ம் ஆண்டு கல்வெட்டு தேவாரம் என்ற பெயரை குறிப்பிடுகிறது.",
+                "tags": "பாண்டியர், கல்வெட்டு, பாண்டிநாடு , சைவம்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLeAQ_bxysm5Rf4PTYZfWEHGBPKqsZW9XBXVe0YCkpYNoDjTmD1bPja5MEtcDbLFfVgDdig5s2Zx7yrDJxQVD5ptQKdB0i-rqAJnHNrD3zcYT-cYOLJlJdoRy_TDwL3DUi-nsmj4=w408-h306-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-thirupazhanam-aabathsahaayesvarar-temple",
+        "items": [
+            {
+                "id": "shaivam-thirupazhanam-aabathsahaayesvarar-temple",
+                "name": "திருப்பழனம் ஆபத்சகாயேஸ்வரர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - பதிகம் பாடும் அடிகள்மார்",
+                "location": "https://maps.app.goo.gl/xm8Nv9dg85BiHSG59",
+                "padhigam": "",
+                "templeInfo": "",
+                "sculptures": "",
+                "inscriptions": "கண்ணிழந்த 12 அடிகள் மார் ஒதுவாராகவும் கண்காட்டிகள் இருவரும் கல்வெட்டில் குறிக்கப்படுகின்றனர்.",
+                "tags": "சோழர், சைவம், கல்வெட்டு, தஞ்சாவூர் , சோழநாடு, சப்தஸ்தானம்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLdVprozlun_YEVo4qEg3PCBxWYMZ4j-NsRQmAs-KrITHf2i-8KXqIV39BvGa0QpJo5AvXSAJfWPOHktNOSGcrMKlwnfkJ90LciR4xAmvzu4a1oboXgMC1dzggYqCJ5-dY4aQhNo=w408-h556-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-thiruvaamaaththur-temple",
+        "items": [
+            {
+                "id": "shaivam-thiruvaamaaththur-temple",
+                "name": "திருவாமாத்தூர் அபிராமேஸ்வரர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - பதிகம் பாடும் அடிகள்மார்",
+                "location": "https://maps.app.goo.gl/bpeY6zrZKJycfN1q8",
+                "padhigam": "",
+                "templeInfo": "",
+                "sculptures": "",
+                "inscriptions": "2ம் குலோத்துங்கன் காலத்து கல்வெட்டு கண்ணிழந்த 16 ஓதுவார்கள் இருந்ததை குறிப்பிடுகிறது.",
+                "tags": "சோழர், சைவம், கல்வெட்டு, தொண்டைநாடு",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLdBdrbOm_fLAS0XIy3qyln41JJy9Y9P4Zhu8--7c5QlYOyh0k78O5PVYYy2oYpw_h03A9wnZaNRc6VFMH750N_vaUTchKD8qmMM9jopYR9B0eMKHNNYB0LRRzjlNVlXYlX06xIBO6uG86jq=w408-h306-k-no"
+            }
+        ]
+    },
+    {
+        "id": "vaishnavam-srimushnam-temple",
+        "items": [
+            {
+                "id": "vaishnavam-srimushnam-temple",
+                "name": "ஸ்ரீமுஷ்ணம் சிவன் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - பதிகம் பாடும் அடிகள்மார்",
+                "location": "https://maps.app.goo.gl/E7JdZQHqTXVcr9MX7",
+                "padhigam": "",
+                "templeInfo": "",
+                "sculptures": "ராஜ கோபுரத்தில் திருப்பதிய விண்ணப்பம் செய்து உயிர் நீத்த ஓதுவார் சிற்பம் உள்ளது. ",
+                "inscriptions": "இத்திருக்கோயிலில் திருப்பதிய விண்ணப்பம் செய்து விடைகொண்ட மானக்கஞ்சாறர் என்ற கல்வெட்டு காணப்படுகிறது. ",
+                "tags": "சைவம், பாண்டிநாடு , சிற்பம்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLfxCVPZlWCWZw5JavmWOBrg-unZzqXbZ3BTIOVUF_t3Ipu86euJ-5xJ8e71RiX_uBnH9-N-HezgyMi3cgUQmY66c3c3w0zI3UmauSZ4iJYxFpHWmzoe9l4YtIKMEd1Vqml6gyyZ8YCGukzp=w408-h306-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-thiruverumbur-erumbeesvarar-temple",
+        "items": [
+            {
+                "id": "shaivam-thiruverumbur-erumbeesvarar-temple",
+                "name": "திருவெறும்பூர் எறும்பீஸ்வரர் கோயில்",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - பதிகம் பாடும் அடிகள்மார்",
+                "location": "https://maps.app.goo.gl/xesJ6dwAW1eE7fXL9",
+                "padhigam": "",
+                "templeInfo": "",
+                "sculptures": "",
+                "inscriptions": "மூன்று சந்தி பொழுதிலும் தேவாரம் பாட பராந்தக சோழனின் உயர் அலுவலர் செம்பியர் வேதிவேளார். இரு தரப்பினரிடம் இருந்தும் நிலத்தை வாங்கி நிலத்தை ஓதுவார்களுக்கு கொடுத்து தான் தினந்தோறும் பதிகம் பாடுவதாக கல்வெட்டு வெட்டிவைத்துள்ளார்.  ",
+                "tags": "சோழர், சைவம், சிற்பம், கல்வெட்டு, திருச்சி",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLcXqWloq-3tD-imTlU6zqiI_1ouTRhr3sCtu-HGE1FsmNMewY-CdHxPpwxbbc5gZM24J65jCGiUiYrLhV3xvQ5MiPf-eC7aiRR1WX5A6JDLJFmcgGgo-xREK5A-JyZw11_1bRQfsn10SgI=w408-h306-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-thirukutraalam-kutraalanaadhar-temple",
+        "items": [
+            {
+                "id": "shaivam-thirukutraalam-kutraalanaadhar-temple",
+                "name": "திருக்குற்றாலம் குற்றாலநாதர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - சீரார் சிவகங்கை ",
+                "location": "https://maps.app.goo.gl/Cj2iw3L1rVhPYPYx5",
+                "padhigam": "",
+                "templeInfo": "திருக்குற்றால மலையில் உள்ள புடைப்பு லிங்க சிற்பங்கள் அருவியை கங்கையாக காட்டுவதற்காக செதுக்கப்பட்டுள்ளன. ",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சோழர், சைவம், சிற்பம், பாண்டிநாடு",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLd_7lQtZjrdjCET_vAd6aN-2gF8u-qPdgAzXsX4g7HeQNOYkyYqQYJwZJo29-kn1Gr3KlQ6dou60JjK4DXz_l6APkDKPBGp4I4AWlzcypmqyhGKvqGzlIdoynP7UvajvOlzBbsuXyVptHMt=w408-h306-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-chiththannavasal-cave-temple",
+        "items": [
+            {
+                "id": "shaivam-chiththannavasal-cave-temple",
+                "name": "சித்தன்னவாசல் குடைவரை கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - சீரார் சிவகங்கை ",
+                "location": "",
+                "padhigam": "",
+                "templeInfo": "",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": ""
+            }
+        ]
+    },
+    {
+        "id": "shaivam-pudukkottai-gokarnam-temple",
+        "items": [
+            {
+                "id": "shaivam-pudukkottai-gokarnam-temple",
+                "name": "புதுக்கோட்டை கோகர்ணம் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - சீரார் சிவகங்கை ",
+                "location": "https://maps.app.goo.gl/eAwwP691S9Vjx2XF9",
+                "padhigam": "",
+                "templeInfo": "",
+                "sculptures": "கங்காதரர் சிற்பம் சிவனின் சடைமுடியில் இருந்து கங்கை பொழிவதாக காட்டப்பட்டுள்ளது",
+                "inscriptions": "",
+                "tags": "சோழர், சைவம், புதுக்கோட்டை",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLewf6IQr7KcNYJRAkQ1yOI_TAPps3FcRf0_IxOT0YKcHSiwyPEPa8WmnzKyKxqjFKLLNb62QHeLxECE5iAo-S2MU2vqdq4x3bf0eYeU9SW5f09ZOvmiH9oz0uWa8cAkLVR8tz7w=w408-h276-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-vijayalaya-sozheesvarar-temple",
+        "items": [
+            {
+                "id": "shaivam-vijayalaya-sozheesvarar-temple",
+                "name": "நார்த்தாமலை விஜயாலய சோழீஸ்வரம் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - சீரார் சிவகங்கை ",
+                "location": "https://maps.app.goo.gl/GTVYUQZufiaNowxh9",
+                "padhigam": "",
+                "templeInfo": "",
+                "sculptures": "விஜயாலய சோழீஸ்வரம் கோயிலுக்கு எதிரில் உள்ள மலைமீது சுனையில் லிங்கம் உள்ளது. மேலிருந்து கங்கை பொழிவது போலவ செதுக்கப்பட்டுள்ளது.",
+                "inscriptions": "",
+                "tags": "சோழர், சைவம், சிற்பம், சோழநாடு",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLdiu34Tn1BSp3f8TX5kRuG_5BSiojQDdC7YaZk3fTGXzmeRw9CgpMn54rW-LioXr5FdZHvpZnHNaSrS7kFlgcbpnk36wegjD1VuJPlQ15mStytgB_JmiemboZWwa0a2C1IVKVtP=w408-h306-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-thirukkattuppalli-agneesvarar-temple",
+        "items": [
+            {
+                "id": "shaivam-thirukkattuppalli-agneesvarar-temple",
+                "name": "திருக்காட்டுப்பள்ளி அக்னீஸ்வரர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - அறுவடை திருநாளில் ஆதவன் வழிபாடு",
+                "location": "https://maps.app.goo.gl/w1VgfCsUwhtoffkGA",
+                "padhigam": "",
+                "templeInfo": "",
+                "sculptures": "சூரியன் சிற்பம் அபயஹஸ்தத்துடன் உள்ள சிற்பம். ",
+                "inscriptions": "",
+                "tags": "சோழர், சைவம், சௌரம், சிற்பம், பாடல்பெற்ற தலம்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLewKQLY5fhhOswYLBgaHAW_KSHF_yI5BsFKg8fX3SgquwsWwOXiqhL280M1crXddAGjYWwhdUBTtqdAweO1hnaBq8nQWRnaTzX4X61ruugIcTUgD_p5uLsMolDmbmtCAG5dIZdy=w408-h456-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-mylapore-kabaaleesvarar-temple",
+        "items": [
+            {
+                "id": "shaivam-mylapore-kabaaleesvarar-temple",
+                "name": "மயிலாப்பூர் கபாலீஸ்வரர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - தைப்பூசம் காணாதே போதியோ",
+                "location": "https://maps.app.goo.gl/o2d9Q8sWvohTGxX99",
+                "padhigam": "தைப்பூசம் குறித்த வீரங்கள் கொண்ட பதிகம்\nhttps://shaivam.org/thirumurai/second-thirumurai/851/thirugnanasambandar-thevaram-thirumylapore-mattita-punnaiyang",
+                "templeInfo": "",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "பாடல்பெற்ற தலம், சைவம், தொண்டைநாடு , சென்னை",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLc4Cm1dsUTBXPeNYGnQcN7EjVpgE2TFhBmHdwOpoxkFNY_CRh9vrgYWF94hRqQLOwpslAN_lDdK8Mh8oAZ83g4cgUOSEBQ5HWDPqRCNjaAiP7pzaFfNvxk506k4C37fY6UrZzou=w408-h544-k-no"
+            }
+        ]
+    },
+    {
+        "id": "shaivam-thiruvadhigai-temple ",
+        "items": [
+            {
+                "id": "shaivam-thiruvadhigai-temple ",
+                "name": "திருவதிகை வீரட்டானர் கோயில் ",
+                "reference": "குடவாயில் பாலசுப்பிரமணியன் - ஆன்மீக தரிசனம் - அப்பரடிகள் காட்டும் அட்டபுட்பம் ",
+                "location": "https://maps.app.goo.gl/kkSWJ7y4xiTyHTW17",
+                "padhigam": "அப்பர் அஷ்ட புஷ்பத்தை கொண்டு சிவனை அர்ச்சிக்கும் பயன் குறித்து இத்தலத்தில் ஒரு  பதிகம் பாடியுள்ளார். புன்னை, வெள்ளெருக்கு, சண்பகம். நந்தியாவட்டம், குவளை, பாதரி, அலரி, செந்தாமரை என்பவை அஷ்டபுஷ்பங்கள்.   \nhttps://shaivam.org/thirumurai/fifth-thirumurai/159/thirunavukkarasar-thevaram-thiruvathigaiveerattam-thirukkurunthokai-ettu-naanmalar/",
+                "templeInfo": "",
+                "sculptures": "",
+                "inscriptions": "",
+                "tags": "சோழர், சைவம், அப்பர் , கடலூர்",
+                "image": "https://lh3.googleusercontent.com/grass-cs/AABkmLeWQCCN223dHZjG-vET43NA0MwXNjYy37KM3Vtwe6Ex2DNBJ_KE2NcPB6MvWrGef8FnH8rwgfbW-R46xbsJGjyNBWcGsP7f5JRtyXhy5c-BAwagCgAz1Ebn0ReskgT3WXLmG_AxjDgezSl6=w408-h510-k-no"
             }
         ]
     }
