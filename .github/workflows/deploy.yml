@@ -27,7 +27,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps
+        run: yarn install --non-interactive --ignore-scripts
         working-directory: ui
 
       - name: Build
