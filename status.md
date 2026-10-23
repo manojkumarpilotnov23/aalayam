@@ -16,3 +16,18 @@
 - Added `GET /maps/embed?url=` endpoint to `main.py`
 - Endpoint follows the `maps.app.goo.gl` short URL redirect server-side, extracts coordinates (`@lat,lng`) from the resolved Google Maps URL, and returns an embeddable `maps.google.com/?output=embed` URL
 - Added `fetchMapEmbed(locationUrl)` to `ui/src/api.ts`
+
+## 2026-10-23
+
+### UI
+- **Edit page** (`/edit`) — select a temple from dropdown, edit all fields, save back to `Manoj.json` via PUT
+- **Rich-text editor** (`ContentEditor`) — Tiptap editor with Bold / Italic / H2 / H3 / Bullet list toolbar
+- **HTML rendering** — Tiptap HTML fields render correctly in TempleDetail; accordion header and card previews use `stripHtml()`
+- **Show all temples** — TempleList fetches up to 200 results (was 20)
+
+### Backend
+- Added `PUT /temples/{temple_id}` endpoint — patches temple fields in `Manoj.json` and reloads in-memory cache
+
+### Scripts
+- `goo_js.py` — added detailed per-step debug logs (`[csv]`, `[maps]`, `[image]`, `[cache]`, `[group]`)
+- `goo_js.py` — skips Playwright browser call for map URLs that already have an image in the existing output JSON

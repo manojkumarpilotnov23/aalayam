@@ -22,7 +22,7 @@ export default function TempleList() {
   useEffect(() => {
     setLoading(true)
     setError('')
-    fetchTemples(search || undefined, selectedTags.length > 0 ? selectedTags : undefined)
+    fetchTemples(search || undefined, selectedTags.length > 0 ? selectedTags : undefined, 0, 200)
       .then(data => { setTemples(data.data); setTotal(data.total) })
       .catch(() => setError('Could not load temples. Please try again.'))
       .finally(() => setLoading(false))
